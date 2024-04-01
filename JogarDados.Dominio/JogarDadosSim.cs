@@ -20,19 +20,19 @@
                 if (dado1 > dado2)
                 {
                     pont1++;
-                    Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". " + jog1 + " venceu a rodada" + rodada + ".");
+                    Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". " + jog1 + " venceu a rodada " + rodada + ".");
                 }
                 else if (dado1 < dado2)
                 {
                     pont2++;
-                    Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". " + jog2 + " venceu a rodada" + rodada + ".");
+                    Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". " + jog2 + " venceu a rodada " + rodada + ".");
                 }
                 else
                 {
-                    Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". Empate");
+                    Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". Empate.");
                 }
 
-                Console.WriteLine("Pontos do jogador " + jog1 + ": " + pont1 + ". Pontos do jogador " + jog2 + ": " + pont2);
+                Console.WriteLine("Pontos do jogador " + jog1 + ": " + pont1 + ". Pontos do jogador " + jog2 + ": " + pont2 + ".");
                 rodada++;
                 Console.WriteLine();
             }
@@ -46,19 +46,19 @@
                     if (dado1 > dado2)
                     {
                         pont1++; 
-                        Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". " + jog1 + " venceu a rodada" + rodada + ".");
+                        Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". " + jog1 + " venceu a rodada " + rodada + ".");
                     }
                     else if (dado1 < dado2)
                     {
                         pont2++;
-                        Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". " + jog2 + " venceu a rodada" + rodada + ".");
+                        Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". " + jog2 + " venceu a rodada " + rodada + ".");
                     }
                     else
                     {
-                        Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". Empate");
+                        Console.WriteLine(jog1 + " tirou o numero " + dado1 + " e " + jog2 + " o numero " + dado2 + ". Empate.");
                     }
                 
-                Console.WriteLine("Pontos do jogador " + jog1 + ": " + pont1 + ". Pontos do jogador " + jog2 + ": " + pont2);
+                Console.WriteLine("Pontos do jogador " + jog1 + ": " + pont1 + ". Pontos do jogador " + jog2 + ": " + pont2 + ".");
                 rodada++;
                 Console.WriteLine();
             }
